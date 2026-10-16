@@ -1,0 +1,320 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/animations/-",
+    "file": "wapititowcarts:shapes/item/towcart/basiccart-attached.json",
+    "value": {
+      "code": "trot",
+      "quantityframes": 45,
+      "onActivityStopped": "EaseOut",
+      "onAnimationEnd": "Repeat",
+      "keyframes": [
+        {
+          "frame": 0,
+          "elements": {
+            "BackAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "FrontAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          }
+        },
+        {
+          "frame": 44,
+          "elements": {
+            "BackAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 360
+              },
+              "rotShortestDistanceZ": true
+            },
+            "FrontAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 360
+              },
+              "rotShortestDistanceZ": true
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "op": "addmerge",
+    "path": "/animations/-",
+    "file": "wapititowcarts:shapes/item/towcart/basiccart-attached.json",
+    "value": {
+      "code": "canter",
+      "quantityframes": 32,
+      "onActivityStopped": "EaseOut",
+      "onAnimationEnd": "Repeat",
+      "keyframes": [
+        {
+          "frame": 0,
+          "elements": {
+            "BackAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "FrontAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          }
+        },
+        {
+          "frame": 31,
+          "elements": {
+            "BackAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 360
+              },
+              "rotShortestDistanceZ": true
+            },
+            "FrontAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 360
+              },
+              "rotShortestDistanceZ": true
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "op": "addmerge",
+    "path": "/animations/-",
+    "file": "wapititowcarts:shapes/item/towcart/basiccart-attached.json",
+    "value": {
+      "code": "gallop",
+      "quantityframes": 22,
+      "onActivityStopped": "EaseOut",
+      "onAnimationEnd": "Repeat",
+      "keyframes": [
+        {
+          "frame": 0,
+          "elements": {
+            "BackAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "FrontAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          }
+        },
+        {
+          "frame": 21,
+          "elements": {
+            "BackAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 360
+              },
+              "rotShortestDistanceZ": true
+            },
+            "FrontAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 360
+              },
+              "rotShortestDistanceZ": true
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "op": "addmerge",
+    "path": "/animations/-",
+    "file": "wapititowcarts:shapes/item/towcart/slimcart-attached.json",
+    "value": {
+      "code": "trot",
+      "quantityframes": 45,
+      "onActivityStopped": "EaseOut",
+      "onAnimationEnd": "Repeat",
+      "keyframes": [
+        {
+          "frame": 0,
+          "elements": {
+            "BackAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "FrontAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          }
+        },
+        {
+          "frame": 44,
+          "elements": {
+            "BackAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 360
+              },
+              "rotShortestDistanceZ": true
+            },
+            "FrontAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 360
+              },
+              "rotShortestDistanceZ": true
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "op": "addmerge",
+    "path": "/animations/-",
+    "file": "wapititowcarts:shapes/item/towcart/slimcart-attached.json",
+    "value": {
+      "code": "canter",
+      "quantityframes": 32,
+      "onActivityStopped": "EaseOut",
+      "onAnimationEnd": "Repeat",
+      "keyframes": [
+        {
+          "frame": 0,
+          "elements": {
+            "BackAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "FrontAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          }
+        },
+        {
+          "frame": 31,
+          "elements": {
+            "BackAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 360
+              },
+              "rotShortestDistanceZ": true
+            },
+            "FrontAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 360
+              },
+              "rotShortestDistanceZ": true
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "op": "addmerge",
+    "path": "/animations/-",
+    "file": "wapititowcarts:shapes/item/towcart/slimcart-attached.json",
+    "value": {
+      "code": "gallop",
+      "quantityframes": 22,
+      "onActivityStopped": "EaseOut",
+      "onAnimationEnd": "Repeat",
+      "keyframes": [
+        {
+          "frame": 0,
+          "elements": {
+            "BackAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "FrontAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          }
+        },
+        {
+          "frame": 21,
+          "elements": {
+            "BackAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 360
+              },
+              "rotShortestDistanceZ": true
+            },
+            "FrontAxle": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 360
+              },
+              "rotShortestDistanceZ": true
+            }
+          }
+        }
+      ]
+    }
+  }
+]
