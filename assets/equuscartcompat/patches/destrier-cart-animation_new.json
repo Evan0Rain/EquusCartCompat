@@ -1,320 +1,256 @@
 [
   {
-    "op": "addmerge",
-    "path": "/animations/-",
+    "op": "add",
+    "path": "/animations",
     "file": "wapititowcarts:shapes/item/towcart/basiccart-attached.json",
-    "value": {
-      "code": "trot",
-      "quantityframes": 45,
-      "onActivityStopped": "EaseOut",
-      "onAnimationEnd": "Repeat",
-      "keyframes": [
-        {
-          "frame": 0,
-          "elements": {
-            "BackAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 0
+    "value": [
+      {
+        "code": "walk",
+        "quantityframes": 60,
+        "onActivityStopped": "EaseOut",
+        "onAnimationEnd": "Repeat",
+        "keyframes": [
+          {
+            "frame": 0,
+            "elements": {
+              "BackAxle": {
+                "rotationZ": 0
+              },
+              "FrontAxle": {
+                "rotationZ": 0
               }
-            },
-            "FrontAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 0
+            }
+          },
+          {
+            "frame": 59,
+            "elements": {
+              "BackAxle": {
+                "rotationZ": 360
+              },
+              "FrontAxle": {
+                "rotationZ": 360
               }
             }
           }
-        },
-        {
-          "frame": 44,
-          "elements": {
-            "BackAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 360
+        ]
+      },
+      {
+        "code": "trot",
+        "quantityframes": 100,
+        "onActivityStopped": "EaseOut",
+        "onAnimationEnd": "Repeat",
+        "keyframes": [
+          {
+            "frame": 0,
+            "elements": {
+              "BackAxle": {
+                "rotationZ": 0
               },
-              "rotShortestDistanceZ": true
-            },
-            "FrontAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 360
+              "FrontAxle": {
+                "rotationZ": 0
+              }
+            }
+          },
+          {
+            "frame": 99,
+            "elements": {
+              "BackAxle": {
+                "rotationZ": 360
               },
-              "rotShortestDistanceZ": true
+              "FrontAxle": {
+                "rotationZ": 360
+              }
             }
           }
-        }
-      ]
-    }
+        ]
+      },
+      {
+        "code": "canter",
+        "quantityframes": 32,
+        "onActivityStopped": "EaseOut",
+        "onAnimationEnd": "Repeat",
+        "keyframes": [
+          {
+            "frame": 0,
+            "elements": {
+              "BackAxle": {
+                "rotationZ": 0
+              },
+              "FrontAxle": {
+                "rotationZ": 0
+              }
+            }
+          },
+          {
+            "frame": 31,
+            "elements": {
+              "BackAxle": {
+                "rotationZ": 360
+              },
+              "FrontAxle": {
+                "rotationZ": 360
+              }
+            }
+          }
+        ]
+      },
+      {
+        "code": "gallop",
+        "quantityframes": 22,
+        "onActivityStopped": "EaseOut",
+        "onAnimationEnd": "Repeat",
+        "keyframes": [
+          {
+            "frame": 0,
+            "elements": {
+              "BackAxle": {
+                "rotationZ": 0
+              },
+              "FrontAxle": {
+                "rotationZ": 0
+              }
+            }
+          },
+          {
+            "frame": 21,
+            "elements": {
+              "BackAxle": {
+                "rotationZ": 360
+              },
+              "FrontAxle": {
+                "rotationZ": 360
+              }
+            }
+          }
+        ]
+      }
+    ]
   },
   {
-    "op": "addmerge",
-    "path": "/animations/-",
-    "file": "wapititowcarts:shapes/item/towcart/basiccart-attached.json",
-    "value": {
-      "code": "canter",
-      "quantityframes": 32,
-      "onActivityStopped": "EaseOut",
-      "onAnimationEnd": "Repeat",
-      "keyframes": [
-        {
-          "frame": 0,
-          "elements": {
-            "BackAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 0
-              }
-            },
-            "FrontAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 0
-              }
-            }
-          }
-        },
-        {
-          "frame": 31,
-          "elements": {
-            "BackAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 360
-              },
-              "rotShortestDistanceZ": true
-            },
-            "FrontAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 360
-              },
-              "rotShortestDistanceZ": true
-            }
-          }
-        }
-      ]
-    }
-  },
-  {
-    "op": "addmerge",
-    "path": "/animations/-",
-    "file": "wapititowcarts:shapes/item/towcart/basiccart-attached.json",
-    "value": {
-      "code": "gallop",
-      "quantityframes": 22,
-      "onActivityStopped": "EaseOut",
-      "onAnimationEnd": "Repeat",
-      "keyframes": [
-        {
-          "frame": 0,
-          "elements": {
-            "BackAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 0
-              }
-            },
-            "FrontAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 0
-              }
-            }
-          }
-        },
-        {
-          "frame": 21,
-          "elements": {
-            "BackAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 360
-              },
-              "rotShortestDistanceZ": true
-            },
-            "FrontAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 360
-              },
-              "rotShortestDistanceZ": true
-            }
-          }
-        }
-      ]
-    }
-  },
-  {
-    "op": "addmerge",
-    "path": "/animations/-",
+    "op": "add",
+    "path": "/animations",
     "file": "wapititowcarts:shapes/item/towcart/slimcart-attached.json",
-    "value": {
-      "code": "trot",
-      "quantityframes": 45,
-      "onActivityStopped": "EaseOut",
-      "onAnimationEnd": "Repeat",
-      "keyframes": [
-        {
-          "frame": 0,
-          "elements": {
-            "BackAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 0
-              }
-            },
-            "FrontAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 0
+    "value": [
+      {
+        "code": "walk",
+        "quantityframes": 60,
+        "onActivityStopped": "EaseOut",
+        "onAnimationEnd": "Repeat",
+        "keyframes": [
+          {
+            "frame": 0,
+            "elements": {
+              "BackAxle": {
+                "rotationZ": 0
+              },
+              "FrontAxle": {
+                "rotationZ": 0
               }
             }
-          }
-        },
-        {
-          "frame": 44,
-          "elements": {
-            "BackAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 360
+          },
+          {
+            "frame": 59,
+            "elements": {
+              "BackAxle": {
+                "rotationZ": 360
               },
-              "rotShortestDistanceZ": true
-            },
-            "FrontAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 360
-              },
-              "rotShortestDistanceZ": true
-            }
-          }
-        }
-      ]
-    }
-  },
-  {
-    "op": "addmerge",
-    "path": "/animations/-",
-    "file": "wapititowcarts:shapes/item/towcart/slimcart-attached.json",
-    "value": {
-      "code": "canter",
-      "quantityframes": 32,
-      "onActivityStopped": "EaseOut",
-      "onAnimationEnd": "Repeat",
-      "keyframes": [
-        {
-          "frame": 0,
-          "elements": {
-            "BackAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 0
-              }
-            },
-            "FrontAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 0
+              "FrontAxle": {
+                "rotationZ": 360
               }
             }
           }
-        },
-        {
-          "frame": 31,
-          "elements": {
-            "BackAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 360
+        ]
+      },
+      {
+        "code": "trot",
+        "quantityframes": 100,
+        "onActivityStopped": "EaseOut",
+        "onAnimationEnd": "Repeat",
+        "keyframes": [
+          {
+            "frame": 0,
+            "elements": {
+              "BackAxle": {
+                "rotationZ": 0
               },
-              "rotShortestDistanceZ": true
-            },
-            "FrontAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 360
-              },
-              "rotShortestDistanceZ": true
-            }
-          }
-        }
-      ]
-    }
-  },
-  {
-    "op": "addmerge",
-    "path": "/animations/-",
-    "file": "wapititowcarts:shapes/item/towcart/slimcart-attached.json",
-    "value": {
-      "code": "gallop",
-      "quantityframes": 22,
-      "onActivityStopped": "EaseOut",
-      "onAnimationEnd": "Repeat",
-      "keyframes": [
-        {
-          "frame": 0,
-          "elements": {
-            "BackAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 0
+              "FrontAxle": {
+                "rotationZ": 0
               }
-            },
-            "FrontAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 0
+            }
+          },
+          {
+            "frame": 99,
+            "elements": {
+              "BackAxle": {
+                "rotationZ": 360
+              },
+              "FrontAxle": {
+                "rotationZ": 360
               }
             }
           }
-        },
-        {
-          "frame": 21,
-          "elements": {
-            "BackAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 360
+        ]
+      },
+      {
+        "code": "canter",
+        "quantityframes": 32,
+        "onActivityStopped": "EaseOut",
+        "onAnimationEnd": "Repeat",
+        "keyframes": [
+          {
+            "frame": 0,
+            "elements": {
+              "BackAxle": {
+                "rotationZ": 0
               },
-              "rotShortestDistanceZ": true
-            },
-            "FrontAxle": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 360
+              "FrontAxle": {
+                "rotationZ": 0
+              }
+            }
+          },
+          {
+            "frame": 31,
+            "elements": {
+              "BackAxle": {
+                "rotationZ": 360
               },
-              "rotShortestDistanceZ": true
+              "FrontAxle": {
+                "rotationZ": 360
+              }
             }
           }
-        }
-      ]
-    }
+        ]
+      },
+      {
+        "code": "gallop",
+        "quantityframes": 22,
+        "onActivityStopped": "EaseOut",
+        "onAnimationEnd": "Repeat",
+        "keyframes": [
+          {
+            "frame": 0,
+            "elements": {
+              "BackAxle": {
+                "rotationZ": 0
+              },
+              "FrontAxle": {
+                "rotationZ": 0
+              }
+            }
+          },
+          {
+            "frame": 21,
+            "elements": {
+              "BackAxle": {
+                "rotationZ": 360
+              },
+              "FrontAxle": {
+                "rotationZ": 360
+              }
+            }
+          }
+        ]
+      }
+    ]
   }
 ]

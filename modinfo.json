@@ -1,17 +1,15 @@
-
 {
   "type": "content",
   "modid": "equuscartcompat",
   "name": "Equus Cart Compatibility",
-  "authors": [
-    "Evan_Rain"
-  ],
-  "description": "Compatibility between Wapiti Towcarts, Equus Destrier and Cartwright's Caravan.",
-  "version": "1.0.0",
+  "authors": ["Evan_Rain"],
+  "description": "Compatibility between Wapiti Towcarts, Equus Destrier, Equus Ferus and Cartwright's Caravan.",
+  "version": "1.0.1",
   "dependencies": {
     "game": "1.22.7",
     "wapititowcarts": "*",
     "equusdestrier": "*",
+    "equusferus": "*",
     "cartwrightscaravan": "*"
   }
 }
