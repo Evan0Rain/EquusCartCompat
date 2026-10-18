@@ -1,8 +1,0 @@
-[
-  {
-    "op": "replace",
-    "path": "/animations/11/quantityframes",
-    "value": 101,
-    "file": "equusdestrier:shapes/entity/destrier/horse.json"
-  }
-]
