@@ -1,0 +1,9 @@
+
+[
+  {
+    "op": "replace",
+    "path": "/animations/11/quantityframes",
+    "value": 100,
+    "file": "equusferus:shapes/entity/ferus/horseadult.json"
+  }
+]

@@ -1,0 +1,80 @@
+
+[
+  {
+    "op": "add",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/2/forCategoryCodes/-",
+    "value": "towcart",
+    "file": "equusferus:entities/ferus/ferus.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*-basiccart-*/lowerbackside-newferus",
+    "value": {
+      "base": "wapititowcarts:item/towcart/basiccart-attached"
+    },
+    "file": "wapititowcarts:itemtypes/towcart.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*-slimcart-*/lowerbackside-newferus",
+    "value": {
+      "base": "wapititowcarts:item/towcart/slimcart-attached"
+    },
+    "file": "wapititowcarts:itemtypes/towcart.json"
+  },
+  {
+    "op": "add",
+    "path": "/elements/-",
+    "value": {
+      "name": "WTC_StaticTowAnchor",
+      "from": [10.0, 0.0, 0.0],
+      "to": [10.0, 0.0, 0.0],
+      "rotationOrigin": [10.0, 0.0, 0.0],
+      "faces": {
+        "north": {"texture": "#null", "uv": [0.0, 0.0, 0.0, 0.0], "enabled": false},
+        "east": {"texture": "#null", "uv": [0.0, 0.0, 0.0, 0.0], "enabled": false},
+        "south": {"texture": "#null", "uv": [0.0, 0.0, 0.0, 0.0], "enabled": false},
+        "west": {"texture": "#null", "uv": [0.0, 0.0, 0.0, 0.0], "enabled": false},
+        "up": {"texture": "#null", "uv": [0.0, 0.0, 0.0, 0.0], "enabled": false},
+        "down": {"texture": "#null", "uv": [0.0, 0.0, 0.0, 0.0], "enabled": false}
+      }
+    },
+    "file": "equusferus:shapes/entity/ferus/horseadult.json"
+  },
+  {
+    "op": "replace",
+    "path": "/elements/0/from/0",
+    "value": 67.0,
+    "file": "wapititowcarts:shapes/item/towcart/basiccart-attached.json"
+  },
+  {
+    "op": "replace",
+    "path": "/elements/0/to/0",
+    "value": 67.0,
+    "file": "wapititowcarts:shapes/item/towcart/basiccart-attached.json"
+  },
+  {
+    "op": "replace",
+    "path": "/elements/0/rotationOrigin/0",
+    "value": 67.0,
+    "file": "wapititowcarts:shapes/item/towcart/basiccart-attached.json"
+  },
+  {
+    "op": "replace",
+    "path": "/elements/0/from/0",
+    "value": 67.0,
+    "file": "wapititowcarts:shapes/item/towcart/slimcart-attached.json"
+  },
+  {
+    "op": "replace",
+    "path": "/elements/0/to/0",
+    "value": 67.0,
+    "file": "wapititowcarts:shapes/item/towcart/slimcart-attached.json"
+  },
+  {
+    "op": "replace",
+    "path": "/elements/0/rotationOrigin/0",
+    "value": 41.0,
+    "file": "wapititowcarts:shapes/item/towcart/slimcart-attached.json"
+  }
+]
